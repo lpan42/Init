@@ -1,0 +1,5 @@
+route -n get default | grep 'gateway' | awk '{print $2}'
+
+# Identify the default gateway in the routing table
+
+#default gateway 默认网关 网络出口

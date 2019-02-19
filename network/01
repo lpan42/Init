@@ -1,0 +1,6 @@
+ifconfig -l
+
+# Get the list of the network interfaces of the machine
+# Only the list of names.
+
+# address_family
