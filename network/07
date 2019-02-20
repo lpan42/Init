@@ -1,0 +1,10 @@
+nslookup slash16.org 8.8.8.8
+
+# Query an external DNS server on the slash16.org domain name
+# (ie. : google 8.8.8.8)
+
+# a public DNS server run by Google - “8.8.8.8”.
+# look up dns information or check that the nameserver is acting OK
+# make sure to get your test results from an external server,
+# and 8.8.8.8 is one of a few DNS servers that have been made available
+# to the public for this purpose.

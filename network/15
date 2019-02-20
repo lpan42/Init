@@ -1,0 +1,9 @@
+echo "46.19.122.85 intra.42.fr" >> /etc/hosts
+
+# Make the intra.42.fr address reroute to 46.19.122.85
+
+# When you add a permanent entry to the local DNS cache on your PC,
+# it will always override the information provided by the nameserver.
+# If a nameserver gives the wrong address for a domain or
+# provides no information at all,
+# you can still access the domain if it’s listed in the local Hosts file.

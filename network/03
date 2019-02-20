@@ -1,8 +1,7 @@
-ifconfig -L en1 | grep "ether" | cut -d " " -f 2
+ifconfig en1 | grep "ether"
 
 # Identify the MAC address of the Wi-Fi card
 
 # To find the Physical Address:
 # -The wireless physical address will be listed under en1
 # -grep the row with 'ether'
-# -cut the MAC address

@@ -1,0 +1,18 @@
+ipconfig getpacket en0 | grep 'yiaddr'
+
+# Find the IP that was assigned to you by dhcp server
+
+# yiaddr = 10.12.5.9
+# YIADDR (Your IP address)
+# CIADDR (Client IP address)
+# SIADDR (Server IP address)
+# GIADDR (Gateway IP address)
+# CHADDR (Client hardware address)
+# DHCP : Dynamic Host Configuration Protocol (动态主机设置协议)
+# is a network management protocol that enables a server to automatically assign
+# an IP address to a computer from a defined range of numbers
+# configured for a given network.
+# Prints to standard output the DHCP/BOOTP packet that the client
+# accepted from the DHCP/BOOTP server.
+# This command outputs nothing if DHCP/BOOTP is not active on the interface,
+# or the attempt to acquire an IP address was unsuccessful.

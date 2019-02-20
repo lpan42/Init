@@ -1,0 +1,6 @@
+nslookup slash16.org | grep "Server"
+
+# IP address of the DNS that responds to the following url: slash16.org
+
+# DNS (Domain Name System域名系统) lookup.
+# Cut to the server part

@@ -1,11 +1,16 @@
 (a) ifconfig en0 | grep "inet " | cut -d " " -f 6
-(b) ifconfig en0 | grep "inet " | cut -d " " -f 2
+(b) arp -a
 
 # display the Ethernet interface characteristics:
 # (a) Identify broadcast address
 # (b) Identify all IP addresses which are part of the same subnet
 
+#(a):
 # To find the Physical Address:
 # -The wired physical address will be listed under en0 (wireless en1)
 # -grep the row with 'inet'
-# -cut the 6 or 2 parts split by space
+# -cut the 6 parts split by space
+
+# (b):
+# stands for Address Resolution Protocol
+# multiple machines have the same IP address the same hosts

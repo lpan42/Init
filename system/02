@@ -1,0 +1,7 @@
+hostname NEW_HOSTNAME
+
+# What command can you use to rename your system?
+
+# The super-user can set the hostname by supplying an argument.
+# the original hostname will be restored upon next reboot.
+# 
