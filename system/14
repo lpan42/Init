@@ -1,0 +1,7 @@
+tail -f /var/log/syslog &
+
+# Run the ‘tail -f /var/log/syslog‘ command in background
+
+# tail: display the last part of a file
+# -l: causes tail to not stop when end of file is reached, but rather to
+# wait for additional data to be appended to the input. 

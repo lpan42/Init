@@ -1,0 +1,10 @@
+fdisk -l
+
+# Name the command that lists the partition tables of drives?
+
+# need to login as host
+lsblk
+
+# Name the command that lists the partition tables of drives?
+
+# or fdisk -l

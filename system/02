@@ -2,6 +2,7 @@ hostname NEW_HOSTNAME
 
 # What command can you use to rename your system?
 
-# su    login as root
+# su
+# pwd to login as root
 # change name
 # hostname to check

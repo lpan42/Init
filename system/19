@@ -1,0 +1,5 @@
+systemctl list-units --type service --all
+
+# List all services which are started at boot time and name this kind of services
+
+# get a list of all services no matter they are active or not

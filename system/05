@@ -1,3 +1,7 @@
-
+/etc/init.d/ssh status
 
 # Name the command that determines the state of the SSH service.
+
+# Secure Shell (SSH) is a cryptographic network protocol for 
+# operating network services remote login or remote file transfer 
+# securely over an unsecured network.

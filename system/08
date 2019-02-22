@@ -1,0 +1,14 @@
+.ssh/authorized_keys
+
+# What file contains the RSA keys of systems 
+# that are authorized to connect via SSH?
+
+# RSA (Rivest–Shamir–Adleman)加密算法 is one of the first public-key cryptosystems 
+# and is widely used for secure data transmission.
+# ssh-keygen to generate the key
+# This procedure has generated an RSA SSH key pair, 
+# located in the .ssh hidden directory within root. 
+# ssh-copy-id username@remote_host transfer your public key
+# ssh username@remote_host login
+# mkdir -p ~/.ssh
+# https://www.digitalocean.com/community/tutorials/ssh-essentials-working-with-ssh-servers-clients-and-keys

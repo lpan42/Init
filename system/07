@@ -1,0 +1,14 @@
+cat /var/run/sshd.pid
+
+# Figure out the PID(process ID) of the 
+
+# SSHD (The Secure Shell Daemon application) service. 
+# is the daemon program for ssh. provides encrypted communications
+# between two untrusted hosts over an insecure network. 
+# It forks a new process for each incoming connection. 
+# The forked processes/connections handle key exchange, encryption, 
+# authentication, command execution, and data exchange. 
+# These connections show the same jobname and Command/Path and Filter
+# as the SSH daemon does. 
+# At sshd startup time its process ID (pid) is written 
+# in the /var/run/sshd.pid file.
