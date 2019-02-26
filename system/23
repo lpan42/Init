@@ -1,14 +1,10 @@
-# Log in as the host
-ssh root@server_ip_address
+--login as host
+--sudo adduser user_name
 
-# Create a new user account using the adduser command.
-adduser username
-
-# Add password
-
-# Add the new user to the sudo group
-
-su - username
+graphic session: 
+--login via GUI
+ssh session:
+-- ssh user_name@127.0.0.1
 
 # Explain how connect yourself as new user. 
 # (With graphic session and ssh session)

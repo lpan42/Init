@@ -1,0 +1,4 @@
+pgrep -U username|xargs kill -9
+deluser --remove-home username
+
+# Write a script which delete an ACTIVE user on the VM.
