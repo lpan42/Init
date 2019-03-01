@@ -1,6 +1,6 @@
 cat /var/run/sshd.pid
 
-# Figure out the PID(process ID) of the 
+# Figure out the PID(processID) of the SSHD service.
 
 # SSHD (The Secure Shell Daemon application) service. 
 # is the daemon program for ssh. provides encrypted communications

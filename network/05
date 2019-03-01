@@ -1,4 +1,4 @@
-nslookup slash16.org | grep "Server"
+nslookup slash16.org | grep "Server" | awk '{print $2}'
 
 # IP address of the DNS that responds to the following url: slash16.org
 

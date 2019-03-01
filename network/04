@@ -1,4 +1,4 @@
-netstat -r | grep 'default' | sed q
+netstat -rn | grep 'default' | sed q | awk '{print $2}'
 
 # Identify the default gateway in the routing table
 

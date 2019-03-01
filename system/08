@@ -8,6 +8,7 @@
 # ssh-keygen to generate the key
 # This procedure has generated an RSA SSH key pair, 
 # located in the .ssh hidden directory within root. 
+
 # ssh-copy-id username@remote_host transfer your public key
 # ssh username@remote_host login
 # mkdir -p ~/.ssh
