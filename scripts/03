@@ -6,4 +6,4 @@ print_date()
 }
 print_date
 
-# Using a built-in function to show current time and date
+# show current time and date
