@@ -1,6 +1,6 @@
-read -p 'Username : ' $uservar
+read -p 'Username: ' uservar
 pkill -u $uservar
-userdel $uservar
+deluser --remove-home $uservar
 
 # Write a script which delete an ACTIVE user on the VM.
 
