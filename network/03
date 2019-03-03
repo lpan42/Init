@@ -1,7 +1,9 @@
 ifconfig en1 | grep "ether" | cut -d " " -f 2
 
-# Identify the MAC address of the Wi-Fi card
+# Identify the MAC address(Media Access Control Address) of the Wi-Fi card
 
+# 局域网地址（LAN Address），以太网地址（Ethernet Address）
+# 或物理地址（Physical Address），它是一个用来确认网络设备位置的地址。
 # To find the Physical Address:
 # -The wireless physical address will be listed under en1
 # -grep the row with 'ether'

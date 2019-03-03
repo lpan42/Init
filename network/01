@@ -1,6 +1,6 @@
 ifconfig -l
 
-# Get the list of the network interfaces of the machine
+# Get the list of the network interfaces(网路接口) of the machine
 # Only the list of names.
 
 # address_family
